@@ -1,11 +1,11 @@
 body{
     margin: 0%;
     padding: 3%;
-
+    background: linear-gradient(-50deg,rgb(218, 213, 213),rgb(69, 148, 148)) 
 }
 .container{
     /* margin-top: 2rem; */
-    height: 43rem;
+    height: 40rem;
     /* background-color: rgb(19, 19, 54); */
     background: linear-gradient(rgb(25, 25, 54),rgb(17, 7, 75));
     text-align: center;
@@ -39,7 +39,7 @@ input{
     color: white;
     font-weight: 900;
     border-radius: 0.7rem;
-/*     border-bottom: oldlace; */
+    /* border-bottom: oldlace; */
    
 
  } 
@@ -53,7 +53,7 @@ input{
  }
 
 
- @media only screen and (min-width: 812px) {
+ @media only screen and (max-width: 812px) {
     body {
         background: linear-gradient(rgb(25, 25, 54),rgb(17, 7, 75));
     }
@@ -61,13 +61,8 @@ input{
         box-shadow: none;
         font-family: "Times New Roman", Times, serif;
     }
-    .logo{
-    width: 45%;
-    
-}
     input{
         padding: 2px 35px;
-        margin-bottom: .5rem;
     }
     .text{
         
@@ -89,11 +84,6 @@ input{
           margin-top: .5rem;
           height: 50rem;
       }
-      }
-    .logo{
-    width: 45%;
-    
-}
       input{
         padding: 2px 33px;
         margin-bottom: .5rem;
