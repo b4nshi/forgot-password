@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    padding: 3%;
+    background: linear-gradient(-50deg,rgb(218, 213, 213),rgb(69, 148, 148)) 
+}
+.container{
+    /* margin-top: 2rem; */
+    height: 40rem;
+    /* background-color: rgb(19, 19, 54); */
+    background: linear-gradient(rgb(25, 25, 54),rgb(17, 7, 75));
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow:5px 3px 3px 3px #beb7b7;
+    
+}
+h2,h2{
+    color: white;
+}
+h3,h3{
+    color: white;
+}
+p{
+    color: white;
+}
+#fp{
+    padding-top: 1rem;
+}
+.logo{
+    margin-top: 5rem;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+input{
+  
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2px 40px;
+    background-color: #23166d;
+    color: white;
+    font-weight: 900;
+    border-radius: 0.7rem;
+    border-bottom: oldlace;
+   
+
+ } 
+ .verify{
+    background: linear-gradient(rgb(17, 101, 134),rgb(17, 7, 75));
+    font-weight: 800;
+     margin-top: 5rem;
+     padding-left: 7rem;
+     padding-right: 7rem;
+     border-radius: 4rem;
+ }
+
+
+ @media only screen and (min-width: 812px) {
+    body {
+        background: linear-gradient(rgb(25, 25, 54),rgb(17, 7, 75));
+    }
+    .container{
+        box-shadow: none;
+        font-family: "Times New Roman", Times, serif;
+    }
+    input{
+        padding: 2px 35px;
+    }
+    .text{
+        
+        font-size: 22px;
+        font-weight: 580;
+    }
+    .logo{
+        margin-top: 4rem;
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+  }
+  @media only screen and ( max-width: 568px){
+    body {
+        background: linear-gradient(rgb(25, 25, 54),rgb(17, 7, 75));
+    }
+      .container{
+          box-shadow: none;
+          margin-top: .5rem;
+          height: 50rem;
+      }
+      input{
+        padding: 2px 33px;
+    }
+    .verify{
+        margin-top: 4rem;
+    }
+  }
