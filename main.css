@@ -39,7 +39,7 @@ input{
     color: white;
     font-weight: 900;
     border-radius: 0.7rem;
-/*     border-bottom: oldlace; */
+    border-bottom: oldlace;
    
 
  } 
@@ -63,6 +63,7 @@ input{
     }
     input{
         padding: 2px 35px;
+        margin-bottom: .5rem;
     }
     .text{
         
@@ -86,6 +87,7 @@ input{
       }
       input{
         padding: 2px 33px;
+        margin-bottom: .5rem;
     }
     .verify{
         margin-top: 4rem;
